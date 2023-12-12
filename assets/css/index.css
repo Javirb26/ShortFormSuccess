@@ -1,0 +1,35 @@
+:root {
+    --charcoal: #36454F;
+}
+
+.charcoal {
+    background-color: var(--charcoal);
+}
+
+.hero-img {
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.3)), url('/assets/images/hero-full.png');
+    background-size: cover;
+}
+
+#hero-content div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1;
+    padding: 10px;
+}
+
+#main-content div {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex: 1;
+}
+
+.font-gradient {
+    background: #3806C2aa;
+    background: linear-gradient(to right, #3806c2aa 0%, #eb8100d0 69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
